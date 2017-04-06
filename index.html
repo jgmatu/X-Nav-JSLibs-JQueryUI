@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+      <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>jQuery UI Default functionality</title>
+
+            <link rel="stylesheet" href="jquery-ui-1.12.0/jquery-ui.min.css">
+            <link rel="stylesheet" href="socios.css">
+
+            <script src="jquery-ui-1.12.0/external/jquery/jquery.js"></script>
+            <script src="jquery-ui-1.12.0/jquery-ui.min.js"></script>
+            <script src="socios.js"></script>
+
+      </head>
+      <body>
+
+            <div id="accordion">
+            </div>
+
+            <div id="topics" class="toggler ui-widget-content ui-corner-all">
+
+                  <h3 class="ui-widget-header ui-corner-all">Public a Topic</h3>
+
+                  Title Post : <input id="title" type="input">
+                  <textarea id="resizable" class="ui-widget-content" style="width:350px;;border:2px solid #ccc;outline:none;padding:0;height:100px;" value=""></textarea>
+
+                  <input id="sendPost" type="button" value="Send Post">
+                  <input type="text" id="datepicker">
+
+            </div>
+
+            <div id = "chat">
+                  <!-- ui-dialog -->
+                  <div id="dialog" title="Dialog Title">
+                  	<p> Javi : Hi Gema! How are u? <p/>
+                        <p> Gema : Find! I am suting javi ;)</p>
+                  </div>
+
+                  <p><a href="#" id="dialog-link" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-newwin"></span>Open Dialog</a></p>
+                  <input id="text_to_dialog" type="input" value="Write in chat...">
+            </div>
+
+            <div id ="photos" class="ui-widget ui-helper-clearfix">
+                  <ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+                        <li class="ui-widget-content ui-corner-tr">
+                              <h5 class="ui-widget-header">Card 1</h5>
+                              <img src="images/j_s.png" alt="The peaks of High Tatras" width="96" height="72">
+                              <a href="images/j_s.png" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                              <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+                        </li>
+                        <li class="ui-widget-content ui-corner-tr">
+                              <h5 class="ui-widget-header">Card 2</h5>
+                              <img src="images/j_c.png" alt="The chalet at the Green mountain lake" width="96" height="72">
+                              <a href="images/j_c.png" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                              <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+                        </li>
+                        <li class="ui-widget-content ui-corner-tr">
+                              <h5 class="ui-widget-header">Card 3</h5>
+                              <img src="images/j_d.png" alt="Planning the ascent" width="96" height="72">
+                              <a href="images/j_d.png" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                              <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+                        </li>
+                        <li class="ui-widget-content ui-corner-tr">
+                              <h5 class="ui-widget-header">Card 4</h5>
+                              <img src="images/j_h.png" alt="On top of Kozi kopka" width="96" height="72">
+                              <a href="images/j_h.png" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                              <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+                        </li>
+                  </ul>
+
+                  <div id="trash" class="ui-widget-content ui-state-default">
+                        <h4 class="ui-widget-header"><span class="ui-icon ui-icon-trash">Trash</span> Trash</h4>
+                  </div>
+            </div>
+
+            <div id ="select">
+                  <!-- Button -->
+                  <form style="margin-top: 1em;">
+                        <h2>Select activity</h2>
+                  	<div id="radioset">
+                  		<input type="radio" id="section_topics" name="radio"/><label for="section_topics">Topics</label>
+                  		<input type="radio" id="section_chat" name="radio" /><label for="section_chat">Chat</label>
+                  		<input type="radio" id="section_photos" name="radio"/><label for="section_photos">Photo Galery</label>
+                  	</div>
+                  </form>
+            </div>
+      </body>
+</html>

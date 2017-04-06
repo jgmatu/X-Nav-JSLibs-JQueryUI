@@ -1,0 +1,136 @@
+#topics {
+      margin : 50px;
+}
+
+#chat {
+      margin: 50px;
+}
+
+#gallery {
+      float: left;
+      width: 65%;
+      min-height: 12em;
+}
+
+.gallery.custom-state-active {
+       background: #eee;
+ }
+
+.gallery li {
+      float: left;
+      width: 96px;
+      padding: 0.4em;
+      margin: 0 0.4em 0.4em 0;
+      text-align: center;
+}
+
+.gallery li h5 {
+      margin: 0 0 0.4em;
+      cursor: move;
+}
+
+.gallery li a {
+      float: right;
+}
+
+.gallery li a.ui-icon-zoomin {
+      float: left;
+}
+
+.gallery li img {
+      width: 100%;
+      cursor: move;
+}
+
+#trash {
+      float: right;
+      width: 32%;
+      min-height: 18em;
+      padding: 1%;
+}
+
+#trash h4 {
+      line-height: 16px;
+      margin: 0 0 0.4em;
+}
+
+#trash h4 .ui-icon {
+      float: left;
+}
+
+#trash .gallery h5 {
+      display: none;
+}
+
+#resizable {
+      width: 150px;
+      height: 150px;
+      padding: 0.5em;
+}
+
+#resizable h3 {
+      text-align : center;
+      margin : 0;
+}
+
+.ui-resizable-helper {
+       border: 1px dotted gray;
+}
+
+.ui-resizable-handle {
+      position: absolute;
+      font-size: 0.1px;
+      display: block;
+      margin: 15px 5px;
+}
+
+.toggler {
+      width: 500px;
+      height: 200px;
+}
+
+#button {
+      padding: .5em 1em;
+      text-decoration: none;
+}
+
+.toggler {
+       width: 500px;
+       height: 200px;
+}
+
+#button {
+      padding: .5em 1em;
+      text-decoration: none;
+}
+
+#post {
+      width: 240px;
+      height: 170px;
+      padding: 0.4em;
+      position: relative;
+}
+
+#post h3 {
+      margin: 0;
+      padding: 0.4em;
+      text-align: center;
+}
+
+.date {
+      font-size: 12px;
+}
+
+#dialog-link {
+      padding: .4em 1em .4em 20px;
+      text-decoration: none;
+      position: relative;
+}
+
+#dialog-link span.ui-icon {
+      margin: 0 5px 0 0;
+      position: absolute;
+      left: .2em;
+      top: 50%;
+      margin-top: -8px;
+}
